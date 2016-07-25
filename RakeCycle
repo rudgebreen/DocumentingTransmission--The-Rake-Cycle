@@ -1,0 +1,2917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../src/vmachine.xsl"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/vmachine.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenting Transmission: The Rake Cycle
+            </title>
+            <respStmt>
+               <resp>Text transcribed and edited by</resp>
+               <persName>Richard Breen</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName>Richard Breen</persName>
+            </respStmt>
+         </titleStmt>
+
+ 
+
+         <publicationStmt>
+            <publisher>Richard Breen</publisher>
+
+            <address>
+                    <addrLine>Maynooth University</addrLine>
+                    <addrLine>RichardBreen@live.ie</addrLine>
+                </address>
+
+            <availability status="unknown">
+
+               <p>This is a test for comparing text and audio of folk songs. The basic song structure comes from
+                  the 'rake' variant, "The Unfortunate Rake", also known as "The Unfortunate Lad", is a traditional 
+                  folk ballad[1] (Roud 2; Laws Q26), which through the folk process has evolved into a 
+                  large number of variants, of which one branch "The Cowboy's Lament", which includes 
+                  the song "Streets of Laredo" is perhaps currently the best known.</p>
+               <p>The earliest known
+                  variant, from an 18th-century broadside, is a lament for a young man dying of syphilis.
+                  The many variants feature various young soldiers, sailors, maids and cowboys, 
+                  being "cut down in their prime" and contemplating their deaths</p>
+               <p>All audio is credited to Smithsonian Folkways and is used purely for 
+               academic purposes.</p>
+               
+
+            </availability>
+
+         </publicationStmt>
+
+         <sourceDesc>
+            <listBibl>
+               <msDesc>
+                  <msIdentifier>
+                     <repository>See Version list.</repository>
+                  </msIdentifier>
+               </msDesc>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <p>Transcriptions are encoded in TEI(P5)-conformant XML.</p>
+         <samplingDecl>
+            <p/>
+         </samplingDecl>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+
+
+
+
+      </encodingDesc>
+
+   </teiHeader>
+<facsimile>
+   <graphic url="images/myjewel.png" xml:id="imageRake"/>
+   <graphic url="images/rake_lyrics.png" xml:id="imageRake1"/>
+   <graphic url="images/badgirl_lyrics.png" xml:id="imageRake2"/>
+   <graphic url="images/sailor_lyrics.png" xml:id="imageRake3"/>
+   <graphic url="images/trooper_lyrics.png" xml:id="imageRake4"/>
+   <graphic url="images/maymorning_lyrics.png" xml:id="imageRake5"/>
+   <graphic url="images/summermorning_lyrics.png" xml:id="imageRake6"/>
+   <graphic url="images/jameshospital_lyrics.png" xml:id="imageRake7"/>
+   <graphic url="images/cowboy_lyrics.png" xml:id="imageRake8"/>
+   <graphic url="images/loredo_lyrics.png" xml:id="imageRake9"/>
+   <graphic url="images/carmen_lyrics.png" xml:id="imageRake10"/>
+   <graphic url="images/lumberjack_lyrics.png" xml:id="imageRake11"/>
+   <graphic url="images/gamblers_lyrics.png" xml:id="imageRake12"/>
+   
+</facsimile>
+
+   <text>
+     
+      <front>
+         
+         <div>
+
+            <listWit>
+               <witness xml:id="rake1">My Jewel, My Joy</witness>
+               <witness xml:id="rake2">The Unfortunate Rake </witness>
+               <witness xml:id="rake3">The Bad Girl's Lament </witness>
+               <witness xml:id="rake4">The Young Sailor Cut Down in His Prime </witness>
+               <witness xml:id="rake5">The Trooper Cut Down in His Prime </witness>
+               <witness xml:id="rake6">One Morning in May </witness>
+               <witness xml:id="rake7">Bright Summer Morning </witness>
+               <witness xml:id="rake8">St. James' Hospital </witness>
+               <witness xml:id="rake9">The Cowboy's Lament </witness>
+               <witness xml:id="rake10">Streets of Laredo</witness>
+               <witness xml:id="rake11">I Once was a Carman on the Big Mountain Con </witness>
+               <witness xml:id="rake12">The Wild Lumberjack </witness>
+               <witness xml:id="rake13">Gambler's Blues </witness>
+            </listWit>
+            
+            <witDetail wit="#rake1" target="#rake1">
+              
+            </witDetail>
+
+            <witDetail wit="#rake2" target="#rake2">
+               <media mimeType="audio/mp3"
+                  url="audio/unfortunate-rake.mp3"/>
+            </witDetail>
+
+            <witDetail wit="#rake3" target="#rake3">
+               <media mimeType="audio/mp3"
+                  url="audio/bad-girls-lament.mp3"/>           
+            </witDetail>
+            
+            <witDetail wit="#rake4" target="#rake4">
+               <media mimeType="audio/mp3"
+                  url="audio/sailor.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake5" target="#rake5">
+               <media mimeType="audio/mp3"
+                  url="audio/trooper.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake6" target="#rake6">
+               <media mimeType="audio/mp3"
+                  url="audio/morning-may.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake7" target="#rake7">
+               <media mimeType="audio/mp3"
+                  url="audio/summer-morning.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake8" target="#rake8">
+               <media mimeType="audio/mp3"
+                  url="audio/st-james-hospital.mp3"/>
+            </witDetail>
+               
+            <witDetail wit="#rake9" target="#rake9">
+               <media mimeType="audio/mp3"
+                  url="audio/cowboys-lament.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake10" target="#rake10">
+               <media mimeType="audio/mp3"
+                  url="audio/streets-of-laredo.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake11" target="#rake11">
+               <media mimeType="audio/mp3"
+                  url="audio/carman.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake12" target="#rake12">
+               <media mimeType="audio/mp3"
+                  url="audio/lumberjack.mp3"/>
+            </witDetail>
+            
+            <witDetail wit="#rake13" target="#rake13">
+               <media mimeType="audio/mp3"
+                  url="audio/gamblers-blues.mp3"/>
+            </witDetail>
+            
+          </div>
+       </front>
+      
+     
+
+      <body>
+   <pb ed="rake1" facs="#imageRake"/>
+   <pb ed="rake2" facs="#imageRake1"/>
+   <pb ed="rake3" facs="#imageRake2"/>
+   <pb ed="rake4" facs="#imageRake3"/>
+   <pb ed="rake5" facs="#imageRake4"/>
+   <pb ed="rake6" facs="#imageRake5"/>
+   <pb ed="rake7" facs="#imageRake6"/>  
+   <pb ed="rake8" facs="#imageRake7"/>
+   <pb ed="rake9" facs="#imageRake8"/>
+   <pb ed="rake10" facs="#imageRake9"/>
+   <pb ed="rake11" facs="#imageRake10"/>
+   <pb ed="rake12" facs="#imageRake11"/> 
+         
+         <!-- 1. My Jewel, My Joy -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               
+               <app loc="locE">
+                  
+                  <rdg wit="#rake1">"My jewel, my joy, don't trouble me with the drum,</rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake1">Sound the dead march as my corpse goes along,</rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake1">And over my body throw handfuls of laurel,</rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake1">And let them all know that I'm going to my rest."</rdg>
+               </app>
+            </l>
+         </lg>
+         
+         
+         <!-- 2. THE UNFORTUNATE RAKE -->
+        
+         <lg type="stanza" n="1">
+         <l n="1">
+            <app loc="locA">
+               <rdg wit="#rake2">
+                  <timeline xml:id="tl_rake1" origin="#tl_rake1_1" unit="s">
+                     <when xml:id="tl_rake1_1"/>
+                     <when since="#tl_rake1_1" interval="13" xml:id="tl_rake1_2"/>
+                  </timeline> As I was a-walking down by
+                   </rdg>
+            </app>
+     
+            <app loc="locA">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_2" interval="4" xml:id="tl_rake1_3"/>
+                  </timeline>St. James's Hospital<note type="context">Probably London. St. James' Hospital is a recurring motif in the song cycle. It provides a setting for the ballad, giving situational context.</note>,
+               </rdg>
+            </app></l>
+            <l n="2">
+            <app loc="locA1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_3" interval="8" xml:id="tl_rake1_4"/>
+                  </timeline>I was a-walking down by there one day,
+               </rdg>
+            </app></l>
+            <l n="3">
+            <app loc="locB">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_4" interval="8" xml:id="tl_rake1_5"/>
+                  </timeline> What should I spy but one of my comrades,
+               </rdg>
+            </app></l>
+            
+            
+            <l n="4">
+            <app loc="locB1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_5" interval="3.5" xml:id="tl_rake1_6"/>
+                  </timeline> All wrapped up in flannel,
+               </rdg>
+               
+            </app>
+            
+            
+            <app loc="locB2">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_7" interval="6" xml:id="tl_rake1_8"/>
+                  </timeline> though warm was the day.
+               </rdg>
+            </app>
+            </l>
+         </lg>
+         
+         
+         <lg type="stanza" n="2">  
+         <l n="1"> 
+              <app loc="locF">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_8" interval="5" xml:id="tl_rake1_9"/>
+                  </timeline> I asked him what ailed him,
+               </rdg>
+            </app>
+            
+            <app loc="locF">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_9" interval="5" xml:id="tl_rake1_10"/>
+                  </timeline> I asked him what failed him,
+               </rdg>
+            </app>
+         </l>
+            <l n="2">
+            <app loc="locF1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_10" interval="6" xml:id="tl_rake1_11"/>
+                  </timeline>I asked him the cause of all his complaint.
+               </rdg>
+            </app></l>
+            
+            <l n="3">
+            <app loc="locK">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_11" interval="7" xml:id="tl_rake1_12"/>
+                  </timeline>"It's all on account of some handsome young woman,
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locK1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_12" interval="10" xml:id="tl_rake1_13"/>
+                  </timeline>'Tis she that has caused me to weep and lament.
+               </rdg>
+            </app></l>
+         </lg>
+         
+         
+         <lg type="stanza" n="3">
+         <l n="1">  
+             <app loc="loc11">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_13" interval="8" xml:id="tl_rake1_14"/>
+                  </timeline>"And had she but told me before she disordered me,
+               </rdg>
+            </app>
+         </l>
+            
+           <l n="2"> 
+            <app loc="loc12">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_15" interval="6" xml:id="tl_rake1_16"/>
+                  </timeline>Had she but told me of it in time,
+               </rdg>
+            </app></l>
+            
+            <l n="3">
+            <app loc="locL">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_16" interval="7" xml:id="tl_rake1_17"/>
+                  </timeline>I might have got pills and salts of white mercury,<note>a contemporary medication for venereal disease, most likely syphilis.</note>
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locE3">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_17" interval="10" xml:id="tl_rake1_18"/>
+                  </timeline>But now I'm cut down in the height of my prime.
+               </rdg>
+            </app></l>
+      </lg>
+         
+         <lg type="stanza" n="4">
+         <l n="1">
+            <app loc="locD">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_18" interval="8" xml:id="tl_rake1_19"/>
+                  </timeline>"Get six young soldiers to carry my coffin,
+               </rdg>
+            </app>
+         </l>
+            
+            <l n="2">
+            <app loc="locD1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_21" interval="7" xml:id="tl_rake1_22"/>
+                  </timeline>Six young girls to sing me a song,
+               </rdg>
+            </app></l>
+            
+            <l n="3">
+            <app loc="locD2">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_22" interval="7" xml:id="tl_rake1_23"/>
+                  </timeline>And each of them carry a bunch of green laurel
+               </rdg>
+            </app></l>
+            
+           <l n="4"> 
+            <app loc="locD3">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_23" interval="10" xml:id="tl_rake1_24"/>
+                  </timeline>So they don't smell me as they bear me along.
+               </rdg>
+            </app>
+        </l>
+      </lg>
+         <lg type="stanza" n="5">
+         <l n="1">
+            <app loc="locE">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_24" interval="9" xml:id="tl_rake1_25"/>
+                  </timeline> "Don't muffle your drums and play your fifes merrily,
+                </rdg>
+            </app>
+         </l>
+            
+            <l n="2">
+            <app loc="locE1">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_25" interval="6" xml:id="tl_rake1_26"/>
+                  </timeline> Play a quick march as you carry me along,
+               </rdg>
+            </app></l>
+            
+           <l n="3"> <app loc="locE2">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_26" interval="8" xml:id="tl_rake1_27"/>
+                  </timeline> And fire your bright muskets all over my coffin,         
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+               <app loc="locE3">
+               <rdg wit="#rake2">
+                  <timeline unit="s">
+                     <when since="#tl_rake1_27" interval="5" xml:id="tl_rake1_28"/>
+                  </timeline> Saying: There goes an unfortunate lad to his home."             
+               </rdg>
+            </app>
+         </l>
+         </lg>
+         
+         
+         
+      <!-- 3. BAD GIRL'S LAMENT -->
+         
+        <lg type="stanza" n="1">
+       <l n="1">  
+            <app loc="locA">
+            <rdg wit="#rake3">
+               <timeline xml:id="tl_rake2" origin="#tl_rake2_1" unit="s">
+                  <when xml:id="tl_rake2_1"/>
+                  <when since="#tl_rake2_1" interval="13" xml:id="tl_rake2_2"/>
+               </timeline> As I walked down to St. James' Hospital,
+            </rdg>
+         </app>
+       </l>
+           
+           <l n="2">
+            <app loc="locA1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_2" interval="4" xml:id="tl_rake2_3"/>
+                  </timeline> St. James' Hospital early one day
+               </rdg>
+            </app></l>
+           
+          <l n="3"> 
+            <app loc="locB">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_3" interval="4" xml:id="tl_rake2_4"/>
+                  </timeline> I spied my only fairest daughter 
+               </rdg>
+            </app></l>
+           
+           <l n="4">
+          <app loc="locB1">
+            <rdg wit="#rake3">
+               <timeline  unit="s">
+                  <when since="#tl_rake2_4" interval="1" xml:id="tl_rake2_5"/>
+               </timeline> Wrapped up in white linen
+            </rdg>
+          </app>
+            <app loc="locB2">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_5" interval="3" xml:id="tl_rake2_6"/>
+                  </timeline> as cold as the clay.
+               </rdg>
+            </app>
+         </l>
+        </lg>
+
+        <lg type="stanza" n="2"> 
+         <l n="1"> 
+               <app loc="locE">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_6" interval="3.5" xml:id="tl_rake2_7"/>
+                  </timeline> So beat your drums and play the fife lowly,
+               </rdg>
+            </app>
+         </l>
+           
+           <l n="2">
+            <app loc="locE1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_7" interval="4" xml:id="tl_rake2_8"/>
+                  </timeline> And play the dead march as you carry me along;
+               </rdg>
+            </app></l>
+            
+           
+          <l n="3"> <app loc="locE4">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_8" interval="4" xml:id="tl_rake2_9"/>
+                  </timeline> Take me to the churchyard and lay the sod over me,
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locE3">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_9" interval="11" xml:id="tl_rake2_10"/>
+                  </timeline> I am a young maid and I know I've done wrong.
+               </rdg>
+            </app>
+           </l>
+         </lg>
+         
+        <lg type="stanza" n="3"> 
+           <l n="1">
+            <app loc="locI">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_10" interval="4" xml:id="tl_rake2_11"/>
+                  </timeline> Once in the street I used to look handsome;
+               </rdg>
+            </app>
+           </l>
+           
+           <l n="2">
+            <app loc="locI1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_11" interval="3.5" xml:id="tl_rake2_12"/>
+                  </timeline> Once in the street I used to dress gay;
+               </rdg>
+            </app></l>
+            
+            
+            <l n="3"><app loc="locJ">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_12" interval="4" xml:id="tl_rake2_13"/>
+                  </timeline> First to the ale house, then to the dance hall
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locJ1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_13" interval="4" xml:id="tl_rake2_14"/>
+                  </timeline> Then to the poor house and now to my grave.
+               </rdg>
+            </app>  
+         </l>
+         </lg>
+         
+         
+         <lg type="stanza" n="4">
+         <l n="1">            
+            <app loc="locE">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_14" interval="3.5" xml:id="tl_rake2_15"/>
+                  </timeline> So beat your drums and play the fife lowly,
+               </rdg>
+            </app>
+         </l>
+            
+            <l n="2">
+            <app loc="locE1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_15" interval="3.5" xml:id="tl_rake2_16"/>
+                  </timeline> And play the dead march as you carry me along;
+               </rdg>
+            </app></l>
+            
+            <l n="3">
+            <app loc="locE4">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_16" interval="4" xml:id="tl_rake2_17"/>
+                  </timeline> Take me to the churchyard and lay the sod over me,
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locE3">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_17" interval="10.5" xml:id="tl_rake2_18"/>
+                  </timeline> I am a young maid and I know I've done wrong.
+               </rdg>
+            </app>
+         </l>
+         </lg>
+         
+         <lg type="stanza" n="5">
+         <l n="1">
+            <app loc="locF">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_18" interval="4" xml:id="tl_rake2_19"/>
+                  </timeline> Send for the preacher to pray o'er my body,
+               </rdg>
+            </app>
+         </l>
+            
+            <l n="2">
+            <app loc="locF1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_19" interval="4" xml:id="tl_rake2_20"/>
+                  </timeline> Send for the doctor to heal up my woulds,
+               </rdg>
+            </app></l>
+            
+            <l n="3">
+            <app loc="locK">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_20" interval="5" xml:id="tl_rake2_21"/>
+                  </timeline> Send for the young man I first fell in love with,
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locK1">
+               <rdg wit="#rake3">
+                  <timeline  unit="s">
+                     <when since="#tl_rake2_21" interval="4" xml:id="tl_rake2_22"/>
+                  </timeline> That I might see him before I pass on.
+               </rdg>
+            </app>
+         </l>
+         </lg>
+         
+         <lg type="stanza" n="6">  
+         <l n="1">        
+               <app loc="locE">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_22" interval="4" xml:id="tl_rake2_23"/>
+                     </timeline> So beat your drums and play the fife lowly,
+                  </rdg>
+               </app>
+         </l>
+            
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_23" interval="4" xml:id="tl_rake2_24"/>
+                     </timeline> And play the dead march as you carry me along;
+                  </rdg>
+               </app></l>
+            
+             <l n="3">  
+               <app loc="locE2">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_24" interval="4" xml:id="tl_rake2_25"/>
+                     </timeline> Take me to the churchyard and lay the sod over me,
+                  </rdg>
+               </app></l>
+            
+               <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_25" interval="7" xml:id="tl_rake2_26"/>
+                     </timeline> I am a young maid and I know I've done wrong.
+                  </rdg>
+               </app></l>
+           </lg>
+         
+          <lg type="stanza" n="7">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_26" interval="5" xml:id="tl_rake2_27"/>
+                     </timeline> Let six pretty maidens with a bunch of red roses,
+                  </rdg>
+               </app>
+            </l>
+             
+           <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_27" interval="5" xml:id="tl_rake2_28"/>
+                     </timeline> Six pretty maidens to sing me a song,
+                  </rdg>
+               </app></l>
+             
+             
+               <l n="3"><app loc="locD2">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_28" interval="5.5" xml:id="tl_rake2_29"/>
+                     </timeline> Six pretty maidens with a bunch of red roses,
+                  </rdg>
+               </app></l>
+             
+             <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake3">
+                     <timeline  unit="s">
+                        <when since="#tl_rake2_30" interval="4" xml:id="tl_rake2_31"/>
+                     </timeline> To lay on my coffin as they carry me along.
+                  </rdg>
+               </app></l>
+            
+            </lg>
+         
+         
+         
+         
+         <!-- 4. THE YOUNG SAILOR CUT DOWN IN HIS PRIME -->
+      <lg type="stanza" n="1">   
+         <l n="1">
+            <app loc="locA">
+               <rdg wit="#rake4">
+                  <timeline xml:id="tl_rake3" origin="#tl_rake3_1" unit="s">
+                     <when xml:id="tl_rake3_1"/>
+                     <when since="#tl_rake3_1" interval="5" xml:id="tl_rake3_2"/>
+                  </timeline> As I was a-walking down by
+               </rdg>
+            </app>
+      
+         
+        
+            <app loc="locA">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_2" interval="2" xml:id="tl_rake3_3"/>
+                  </timeline> the Royal Albert,
+               </rdg>
+            </app>
+         </l>
+              <l n="2">         
+            <app loc="locA1">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_3" interval="5" xml:id="tl_rake3_4"/>
+                  </timeline> Dark was the night and cold was the day;
+               </rdg>
+            </app></l>
+         
+         <l n="3">
+            <app loc="locB">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_4" interval="6" xml:id="tl_rake3_5"/>
+                  </timeline> Who should I see there but one of my shipmates.
+               </rdg>
+            </app></l>
+         
+         <l n="4">
+            <app loc="locB1">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_5" interval="2.5" xml:id="tl_rake3_6"/>
+                  </timeline> Wrapped in a blanket
+               </rdg>
+            </app>
+            <app loc="locB2">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_6" interval="3" xml:id="tl_rake3_7"/>
+                  </timeline> far colder than clay.
+               </rdg>
+            </app>            
+         </l>
+         </lg>
+         
+         <lg type="stanza" n="2">
+         <l n="1">
+            <app loc="locF">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_7" interval="5" xml:id="tl_rake3_8"/>
+                  </timeline> He asked for a blanket to wrap 'round his head,
+               </rdg>
+            </app>  
+         </l>
+            <l n="2">
+            <app loc="locF">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_8" interval="5" xml:id="tl_rake3_9"/>
+                  </timeline> likewise a candle to light him to bed;
+               </rdg>
+            </app>  </l>
+            
+            <l n="3">
+            <app loc="locF2">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_9" interval="6" xml:id="tl_rake3_10"/>
+                  </timeline> His poor heart was breakin', his poor head was achin',
+               </rdg>
+            </app> </l>
+            
+            <l n="4">
+            <app loc="locE3">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_10" interval="5" xml:id="tl_rake3_11"/>
+                  </timeline> For he's a young sailor cut down in his prime.
+               </rdg>
+            </app> 
+           </l>
+         </lg>
+         
+        <lg type="stanza" n="3">
+            <l n="1">
+            <app loc="locE">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_11" interval="6" xml:id="tl_rake3_12"/>
+                  </timeline> We'll beat the big drums and we'll play the fifes merrily
+               </rdg>
+            </app> 
+            </l>
+           
+           <l n="2">
+            <app loc="locE1">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_12" interval="6" xml:id="tl_rake3_13"/>
+                  </timeline> Play the dead march as we carry him along,
+               </rdg>
+            </app> </l>
+           
+           <l n="3">
+            <app loc="locE2">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_13" interval="6" xml:id="tl_rake3_14"/>
+                  </timeline> Take him to the churchyard and fire three volleys o'er him,
+               </rdg>
+            </app> </l>
+           
+           <l n="4">
+            <app loc="locE3">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_14" interval="6" xml:id="tl_rake3_15"/>
+                  </timeline> For he's a young sailor cut down in his prime.
+               </rdg>
+            </app> 
+         </l></lg>
+         
+         
+        <lg type="stanza" n="4">
+         <l n="1">
+            <app loc="locG">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_15" interval="6" xml:id="tl_rake3_16"/>
+                  </timeline> At the corner of the street you'll see two girls standing,
+               </rdg>
+            </app> 
+         </l>
+           
+           <l n="2">
+            <app loc="locG1">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_16" interval="6" xml:id="tl_rake3_17"/>
+                  </timeline> One to the other did whisper and say;
+               </rdg>
+            </app> </l>
+           
+           <l n="3">
+            <app loc="locG2">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_17" interval="5" xml:id="tl_rake3_18"/>
+                  </timeline> "Here comes a young sailor whose money we'll squander,
+               </rdg>
+            </app> </l>
+           
+           <l n="4">
+            <app loc="locG3">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_18" interval="7" xml:id="tl_rake3_19"/>
+                  </timeline> Here comes a young sailor cut down in his prime."                 
+               </rdg>
+            </app>    
+          </l>
+         </lg>
+         
+         
+         <lg type="stanza" n="5">
+         <l n="1">
+            <app loc="locH">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_19" interval="7" xml:id="tl_rake3_20"/>
+                  </timeline> His kind-hearted mother, his kind-hearted father,               
+               </rdg>
+            </app>
+         </l>
+            <l n="2">
+            <app loc="locH1">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_20" interval="5" xml:id="tl_rake3_21"/>
+                  </timeline> Both of them wondered about his past life,               
+               </rdg>
+            </app></l>
+            
+          <l n="3">  <app loc="locH2">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_21" interval="5" xml:id="tl_rake3_22"/>
+                  </timeline> For along with the flash-girls<note>Prostitutes</note> he would wander,             
+               </rdg>
+            </app></l>
+            
+            <l n="4">
+            <app loc="locH3">
+               <rdg wit="#rake4">
+                  <timeline unit="s">
+                     <when since="#tl_rake3_22" interval="7" xml:id="tl_rake3_23"/>
+                  </timeline> Along with the flash-girls it was his delight.<note>This version of the ballad appears to carry 
+                     the same story as the original, insofar as the titular sailor has fallen to venereal disease.</note>            
+               </rdg>
+            </app>
+         </l>
+        </lg>
+         
+         <!-- 5. THE TROOPER CUT DOWN IN HIS PRIME -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake5">
+                     <timeline xml:id="tl_rake4" origin="#tl_rake4_1" unit="s">
+                        <when xml:id="tl_rake4_1"/>
+                        <when since="#tl_rake4_1" interval="9" xml:id="tl_rake4_2"/>
+                     </timeline> As I was a-walkin' down by the Royal Arsenal,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locA1">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_2" interval="6" xml:id="tl_rake4_3"/>
+                     </timeline> Early the morning though 'warm was the day,            
+                  </rdg>
+               </app></l>
+            
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_3" interval="7" xml:id="tl_rake4_4"/>
+                     </timeline> When who should I spy but one of my comrades,           
+                  </rdg>
+               </app></l>
+            
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_4" interval="3" xml:id="tl_rake4_5"/>
+                     </timeline> All wrapped up in flannel,        
+                  </rdg>
+               </app>
+               <app loc="locB2">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_5" interval="3" xml:id="tl_rake4_6"/>
+                     </timeline> and cold as the clay.        
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+              <lg type="stanza" n="2"> 
+                 <l n="1">
+                 <app loc="locE">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_6" interval="7" xml:id="tl_rake4_7"/>
+                     </timeline> Then beat the drum lowly and play your fife slowly,        
+                  </rdg>
+               </app>
+                 </l>
+                 <l n="2">
+                    <app loc="locE1">
+                       <rdg wit="#rake5">
+                          <timeline unit="s">
+                             <when since="#tl_rake4_7" interval="5" xml:id="tl_rake4_8"/>
+                          </timeline> And sound the dead march as you carry me along        
+                       </rdg>
+                    </app></l>
+                 
+                 <l n="3">
+                    <app loc="locE2">
+                       <rdg wit="#rake5">
+                          <timeline unit="s">
+                             <when since="#tl_rake4_8" interval="5" xml:id="tl_rake4_9"/>
+                          </timeline> And fire your bundooks <note>From the Hindustani banduk, meaning a rifle or musket</note>  
+                          right over my coffin,
+                       </rdg>
+                    </app></l>
+                 
+                 <l n="4">
+                    <app loc="locE3">
+                       <rdg wit="#rake5">
+                          <timeline unit="s">
+                             <when since="#tl_rake4_9" interval="8" xml:id="tl_rake4_10"/>
+                          </timeline>For I'm a young trooper cut down in my prime.                        
+                       </rdg>
+                    </app>                  
+             </l>
+            </lg>
+        <lg type="stanza" n="3">          
+           <l n="1">
+              <app loc="locF2">
+                 <rdg wit="#rake5">
+                    <timeline unit="s">
+                       <when since="#tl_rake4_10" interval="6" xml:id="tl_rake4_11"/>
+                    </timeline>The bugles were playin'; his mates were a-prayin',                       
+                 </rdg>
+              </app>
+           </l>
+           
+           <l n="2">
+              <app loc="locF">
+                 <rdg wit="#rake5">
+                    <timeline unit="s">
+                       <when since="#tl_rake4_11" interval="8" xml:id="tl_rake4_12"/>
+                    </timeline>The chaplain was kneelin' down by his bed;                       
+                 </rdg>
+              </app></l>
+           
+           <l n="3">
+              <app loc="locF2">
+                 <rdg wit="#rake5">
+                    <timeline unit="s">
+                       <when since="#tl_rake4_12" interval="8" xml:id="tl_rake4_13"/>
+                    </timeline>His poor head was achin', his poor heart was breakin',                      
+                 </rdg>
+              </app>  </l>
+           
+           <l n="4">
+              <app loc="locE3">
+                 <rdg wit="#rake5">
+                    <timeline unit="s">
+                       <when since="#tl_rake4_13" interval="5" xml:id="tl_rake4_14"/>
+                    </timeline>This poor young trooper cut down in his prime.                      
+                 </rdg>
+              </app>
+         </l>
+        </lg>
+         
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locE">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_14" interval="7" xml:id="tl_rake4_15"/>
+                     </timeline> Then beat the drum lowly and play your fife slowly,        
+                  </rdg>
+               </app>
+            </l>
+            
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_15" interval="7" xml:id="tl_rake4_16"/>
+                     </timeline> And sound the dead march as you carry me along        
+                  </rdg>
+               </app></l>
+            
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_16" interval="5" xml:id="tl_rake4_17"/>
+                     </timeline> And fire your bundooks <note>From the Hindustani banduk, meaning a rifle or musket</note>  
+                     right over my coffin,
+                  </rdg>
+               </app></l>
+            
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_17" interval="7" xml:id="tl_rake4_18"/>
+                     </timeline>For I'm a young trooper cut down in my prime.                        
+                  </rdg>
+               </app>      
+            </l>
+         </lg>
+         
+           <lg type="stanza" n="5"> 
+              <l n="1">
+                 <app loc="locD">
+                    <rdg wit="#rake5">
+                       <timeline unit="s">
+                          <when since="#tl_rake4_18" interval="7.5" xml:id="tl_rake4_19"/>
+                       </timeline>Get six of my comrades to carry my coffin,                        
+                    </rdg>
+                 </app>
+              </l>
+              <l n="2">
+                 <app loc="locD1">
+                    <rdg wit="#rake5">
+                       <timeline unit="s">
+                          <when since="#tl_rake4_19" interval="7" xml:id="tl_rake4_20"/>
+                       </timeline>Six of my comrades to carry me on high;                      
+                    </rdg>
+                 </app>  </l>
+              
+              <l n="3">
+                 <app loc="locD2">
+                    <rdg wit="#rake5">
+                       <timeline unit="s">
+                          <when since="#tl_rake4_20" interval="7" xml:id="tl_rake4_21"/>
+                       </timeline>And six young maidens to carry white roses,                      
+                    </rdg>
+                 </app>  </l>
+              
+              <l n="4">
+                 <app loc="locD3">
+                    <rdg wit="#rake5">
+                       <timeline unit="s">
+                          <when since="#tl_rake4_21" interval="30" xml:id="tl_rake4_22"/>
+                       </timeline>So they won't smell me as they pass me by.                      
+                    </rdg>
+                 </app>  
+            </l>
+           </lg>
+         <lg type="stanza" n="6">
+            <l n="1">
+               <app loc="locG">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_22" interval="8" xml:id="tl_rake4_23"/>
+                     </timeline>  Outside of the barracks you will find two girls standin',                    
+                  </rdg>
+               </app> 
+            </l>
+            
+            <l n="2">
+               <app loc="locG1">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_23" interval="7" xml:id="tl_rake4_24"/>
+                     </timeline> And one to the other she whispered and said:                  
+                  </rdg>
+               </app> </l>
+            
+            <l n="3">
+               <app loc="locG2">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_24" interval="7" xml:id="tl_rake4_25"/>
+                     </timeline>"Here comes the young swaddy <note>English slang for soldier</note> whose money we squandered,                 
+                  </rdg>
+               </app></l>
+            
+            <l n="4">
+               <app loc="locG3">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_25" interval="33" xml:id="tl_rake4_26"/>
+                     </timeline>Here comes the young trooper cut down in his prime."                
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+         <lg type="stanza" n="7">
+            <l n="1">
+               <app loc="locM">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_26" interval="8" xml:id="tl_rake4_27"/>
+                     </timeline>On the cross by his grave you will find these words written:                
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locM1">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_27" interval="7" xml:id="tl_rake4_28"/>
+                     </timeline>"All you young troopers take warnin' by me;                
+                  </rdg>
+               </app></l>
+            <l n="3">
+               <app loc="locH2">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_28" interval="7" xml:id="tl_rake4_29"/>
+                     </timeline>Keep away from them flash-girls <note>Prostitutes.</note> who walk in the city;                
+                  </rdg>
+               </app></l>
+            <l n="4">
+               <app loc="locH3">
+                  <rdg wit="#rake5">
+                     <timeline unit="s">
+                        <when since="#tl_rake4_29" interval="7" xml:id="tl_rake4_30"/>
+                     </timeline>Flash-girls of the city have quite ruined me."                
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+         <!-- 6. One Morning in May -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake6">
+                     <timeline xml:id="tl_rake5" origin="#tl_rake5_1" unit="s">
+                        <when xml:id="tl_rake5_1"/>
+                        <when since="#tl_rake5_1" interval="9.5" xml:id="tl_rake5_2"/>
+                     </timeline> When I was a young girl, I used to seek pleasure,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake6">
+                     <timeline unit="s">
+                        <when since="#tl_rake5_2" interval="8" xml:id="tl_rake5_3"/>
+                     </timeline>When I was a young girl, I used to drink ale;                
+                  </rdg>
+               </app></l>
+            
+            <l n="3">
+               <app loc="locJ">
+                  <rdg wit="#rake6">
+                     <timeline unit="s">
+                        <when since="#tl_rake5_3" interval="8" xml:id="tl_rake5_4"/>
+                     </timeline>Right out of the alehouse and into the jailhouse,               
+                  </rdg>
+               </app></l>
+            
+            <l n="4">
+               <app loc="locJ1">
+                  <rdg wit="#rake6">
+                     <timeline unit="s">
+                        <when since="#tl_rake5_4" interval="8" xml:id="tl_rake5_5"/>
+                     </timeline>Out of a barroom and down to my grave.           
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+             <lg type="stanza" n="2">
+                <l n="1">  
+                 <app loc="locH">
+                  <rdg wit="#rake6">
+                     <timeline unit="s">
+                        <when since="#tl_rake5_5" interval="8" xml:id="tl_rake5_6"/>
+                     </timeline>Come Papa, come Mama, and sit you down by me,                    
+                  </rdg>
+               </app></l>
+                   <l n="2">
+                   <app loc="locH1">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_6" interval="7.5" xml:id="tl_rake5_7"/>
+                         </timeline>Come sit you down by me and pity my case;                         
+                      </rdg>
+                   </app>
+                 </l>
+                <l n="3">
+                   <app loc="locF2">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_7" interval="8" xml:id="tl_rake5_8"/>
+                         </timeline>My poor head is aching, my sad heart is breaking,                       
+                      </rdg>
+                   </app></l>
+                   <l n="4">
+                   <app loc="locL">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_8" interval="8" xml:id="tl_rake5_9"/>
+                         </timeline>My body's salivated and I'm bound to die.<note>Ointments of metalic mercury have been used in past
+                            times as a cure for syphilis, and one of the results of such curative
+                            attempts is an excessive flow of saliva on the part of the patient.</note>                                              
+                      </rdg>
+                   </app>
+                </l>
+             </lg>
+         
+             <lg type="stanza" n="3">  
+                <l n="1">
+                   <app loc="locF">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_9" interval="9" xml:id="tl_rake5_10"/>
+                         </timeline>Go send for the preacher to come and pray for me;                      
+                      </rdg>
+                   </app>
+                </l>
+                <l n="2">
+                   <app loc="locF1">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_10" interval="8" xml:id="tl_rake5_11"/>
+                         </timeline>Go send for the doctor to heal up my wounds;                     
+                      </rdg>
+                   </app>
+                   </l>
+                <l n="3">
+                   <app loc="locF2">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_11" interval="8" xml:id="tl_rake5_12"/>
+                         </timeline>My poor head is aching, my sad heart is breaking,                     
+                      </rdg>
+                   </app></l>
+                   <l n="4">
+                   <app loc="locL">
+                      <rdg wit="#rake6">
+                         <timeline unit="s">
+                            <when since="#tl_rake5_12" interval="8" xml:id="tl_rake5_13"/>
+                         </timeline>My body's salivated, and Hell is my doom.                     
+                      </rdg>
+                   </app>
+                </l>
+             </lg>
+               <lg type="stanza" n="4">
+                  <l n="1">
+                     <app loc="locD">
+                        <rdg wit="#rake6">
+                           <timeline unit="s">
+                              <when since="#tl_rake5_13" interval="8" xml:id="tl_rake5_14"/>
+                           </timeline>I want four young ladies to bear up my coffin,                     
+                        </rdg>
+                     </app>
+                  </l>
+                  <l n="2">
+                     <app loc="locD1">
+                        <rdg wit="#rake6">
+                           <timeline unit="s">
+                              <when since="#tl_rake5_14" interval="8" xml:id="tl_rake5_15"/>
+                           </timeline>I want three young maidens to carry me on,                     
+                        </rdg>
+                     </app></l>
+                     <l n="3">
+                     <app loc="locD2">
+                        <rdg wit="#rake6">
+                           <timeline unit="s">
+                              <when since="#tl_rake5_15" interval="8.5" xml:id="tl_rake5_16"/>
+                           </timeline>And each of them carry a bunch of wild roses,                    
+                        </rdg>
+                     </app></l>
+                     <l n="4">
+                     <app loc="locD3">
+                        <rdg wit="#rake6">
+                           <timeline unit="s">
+                              <when since="#tl_rake5_16" interval="8" xml:id="tl_rake5_17"/>
+                           </timeline>To lay on my body as I pass along.                    
+                        </rdg>
+                     </app>            
+                  </l>
+               </lg>
+                <lg type="stanza" n="5">
+                   <l n="1">
+                      <app loc="locA1">
+                         <rdg wit="#rake6">
+                            <timeline unit="s">
+                               <when since="#tl_rake5_17" interval="4" xml:id="tl_rake5_18"/>
+                            </timeline>One morning, one morning,                   
+                         </rdg>
+                      </app>
+                      
+                      <app loc="locA1">
+                         <rdg wit="#rake6">
+                            <timeline unit="s">
+                               <when since="#tl_rake5_18" interval="4" xml:id="tl_rake5_19"/>
+                            </timeline>one morning in May,                    
+                         </rdg>
+                      </app>
+                   </l>
+                   <l n="2">
+                      <app loc="locB">
+                         <rdg wit="#rake6">
+                            <timeline unit="s">
+                               <when since="#tl_rake5_19" interval="8" xml:id="tl_rake5_20"/>
+                            </timeline>I spied this young lady all clad in white linen,                   
+                         </rdg>
+                      </app></l>
+                   <l n="3">
+                      <app loc="locB1">
+                         <rdg wit="#rake6">
+                            <timeline unit="s">
+                               <when since="#tl_rake5_20" interval="4" xml:id="tl_rake5_21"/>
+                            </timeline>All clad in white linen                   
+                         </rdg>
+                      </app>
+                      <app loc="locB2">
+                         <rdg wit="#rake6">
+                            <timeline unit="s">
+                               <when since="#tl_rake5_21" interval="4" xml:id="tl_rake5_22"/>
+                            </timeline>and cold as the clay.                   
+                         </rdg>
+                      </app>
+                   </l>
+                </lg>
+         
+         <!-- 7. Bright Summer Morning -->
+         
+         
+         <lg type="stanza" n="1">
+          
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake7">
+                     <timeline xml:id="tl_rake6a" origin="#tl_rake6a_1" unit="s">
+                        <when xml:id="tl_rake6a_1"/>
+                        <when since="#tl_rake6a_1" interval="8" xml:id="tl_rake6a_2"/>
+                     </timeline> One bright summer morning as I were a-walking,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+            <app loc="locA1">
+               <rdg wit="#rake7">
+                  <timeline unit="s">
+                     <when since="#tl_rake6a_2" interval="6" xml:id="tl_rake6a_3"/>
+                  </timeline>One bright summer morning as I were a-walk,              
+               </rdg>
+            </app>
+            </l>
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_3" interval="9" xml:id="tl_rake6a_4"/>
+                     </timeline>Whom should I meet-a with a fair darling damsel,         
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_4" interval="4" xml:id="tl_rake6a_4a"/>
+                     </timeline>She was wrapped up in flannel,        
+                  </rdg>
+               </app>
+            
+               <app loc="locB2">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_4a" interval="12" xml:id="tl_rake6a_5"/>
+                     </timeline>as cold as could be.        
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locH">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_5" interval="8" xml:id="tl_rake6a_6"/>
+                     </timeline>O come dearest mother, and sit down beside me, 
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locH1">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_6" interval="6" xml:id="tl_rake6a_7"/>
+                     </timeline>O come dearest mother, and pity my crime,  
+                  </rdg>
+               </app> 
+            </l>
+          
+            <l n="3">
+               <app loc="locF2">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_7" interval="8" xml:id="tl_rake6a_8"/>
+                     </timeline>For my poor heart is breakin', my poor head is bendin',
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locL">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_8" interval="16" xml:id="tl_rake6a_9"/>
+                     </timeline>For I'm deep in salwation<note>Direct reference to veneral disease, showing this version
+                        probably comes from an older iteration, removed from the cowboy tradition.</note>, and surely I must die."
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locF">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_9" interval="8" xml:id="tl_rake6a_10"/>
+                     </timeline>Do send for the young man that first introduced<note>An error, Goldstein suggests 'Seduced'</note> me,
+                  </rdg>
+               </app> 
+            </l>   
+            <l n="2">
+               <app loc="locFa">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_10" interval="7" xml:id="tl_rake6a_11"/>
+                     </timeline>Do send for the young man that put me in pain,
+                    </rdg>
+               </app> 
+            </l>  
+            <l n="3">
+               <app loc="locF1">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_11" interval="6" xml:id="tl_rake6a_12"/>
+                     </timeline>Do send for the doctor although it is too late,
+                  </rdg>
+               </app> 
+            </l>  
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_12" interval="14" xml:id="tl_rake6a_13"/>
+                     </timeline>For I am a young girl cut down in my prime.
+                  </rdg>
+               </app> 
+            </l>  
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_13" interval="8" xml:id="tl_rake6a_14"/>
+                     </timeline>Six jolly young sailors to carry my coffin,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_14" interval="6" xml:id="tl_rake6a_15"/>
+                     </timeline>Six jolly young ladies to walk by my side,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_15" interval="6" xml:id="tl_rake6a_16"/>
+                     </timeline>With a bunch of green roses to place on my coffin,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake7">
+                     <timeline unit="s">
+                        <when since="#tl_rake6a_16" interval="8" xml:id="tl_rake6a_17"/>
+                     </timeline>That people might smell me while passing along.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         
+         <!-- 8. St. James Hospital -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake8">
+                     <timeline xml:id="tl_rake6" origin="#tl_rake6_1" unit="s">
+                        <when xml:id="tl_rake6_1"/>
+                        <when since="#tl_rake6_1" interval="9" xml:id="tl_rake6_2"/>
+                     </timeline> It was early one morning
+                  </rdg>
+               </app>
+           
+               
+               <app loc="locA">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_2" interval="9" xml:id="tl_rake6_3"/>
+                     </timeline>I passed St. James' Hostpital,                   
+                  </rdg>
+               </app>
+            </l>
+              <l n="2">
+                 <app loc="locA1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_3" interval="8" xml:id="tl_rake6_4"/>
+                     </timeline>It was early one mornin', mornin' month of May,                 
+                  </rdg>
+               </app>
+              </l>
+              <l n="3"> 
+               <app loc="locB">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_4" interval="12" xml:id="tl_rake6_5"/>
+                     </timeline>I looked in the window and I spied a dear cowboy--                 
+                  </rdg>
+               </app>
+               </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_5" interval="6.5" xml:id="tl_rake6_6"/>
+                     </timeline>Wrapped up in white linen, well,               
+                  </rdg>
+               </app>
+               
+               <app loc="locB2">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_6" interval="6.5" xml:id="tl_rake6_7"/>
+                     </timeline>he was cold as the clay.                
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locH">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_7" interval="9" xml:id="tl_rake6_8"/>
+                     </timeline>Sayin', "Come, dear mother, come an' seat yourself nigh me,               
+                  </rdg>
+               </app>
+            </l>
+            
+            <l n="2">
+               <app loc="locH1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_8" interval="7" xml:id="tl_rake6_9"/>
+                     </timeline>Come, dear father, come and sing me one song,               
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locF2">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_9" interval="12" xml:id="tl_rake6_10"/>
+                     </timeline>For my knee-bones are achin' and my poor heart is breakin',              
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_10" interval="11" xml:id="tl_rake6_11"/>
+                     </timeline>I know I'm a poor cowboy, and I know I done wrong.              
+                  </rdg>
+               </app>
+            </l>
+            
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_11" interval="9" xml:id="tl_rake6_12"/>
+                     </timeline>I want sixteen young gamblers, papa, to carry my coffin,              
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_12" interval="9" xml:id="tl_rake6_13"/>
+                     </timeline>I want sixteen young whore gals for to sing me my song,             
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_13" interval="9" xml:id="tl_rake6_14"/>
+                     </timeline>Tell them bring 'long a bunch of those sweet-smellin' roses,             
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_14" interval="10" xml:id="tl_rake6_15"/>
+                     </timeline>So they can't smell me as they drive me on.             
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_15" interval="8" xml:id="tl_rake6_16"/>
+                     </timeline>'Twas once in the saddle, papa, I used to go dashing,             
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_16" interval="8" xml:id="tl_rake6_17"/>
+                     </timeline>Father, in my young days when I used to be gay,            
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locJ">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_17" interval="10" xml:id="tl_rake6_18"/>
+                     </timeline>Down roun' that old church-house, with them handsome young ladies,         
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locJ1">
+                  <rdg wit="#rake8">
+                     <timeline unit="s">
+                        <when since="#tl_rake6_19" interval="4" xml:id="tl_rake6_20"/>
+                     </timeline>Them girls oughta carry me, follow me to my grave.         
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         
+         <!-- 9. THE COWBOY'S LAMENT -->
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake9">
+                     <timeline xml:id="tl_rake7" origin="#tl_rake7_1" unit="s">
+                        <when xml:id="tl_rake7_1"/>
+                        <when since="#tl_rake7_1" interval="7" xml:id="tl_rake7_2"/>
+                     </timeline> As I rode out in the streets of Laredo
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locA1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_2" interval="6" xml:id="tl_rake7_3"/>
+                     </timeline>As I rode through the streets of Laredo one day         
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_3" interval="6" xml:id="tl_rake7_4"/>
+                     </timeline>I seen a poor cowboy in tom sherman’s dance-hall,         
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_4" interval="6" xml:id="tl_rake7_5"/>
+                     </timeline>All dressed in his buckskins, and fit for his grave.         
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_5" interval="7" xml:id="tl_rake7_6"/>
+                     </timeline>Oh once in the saddle I used to go dashing,         
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_6" interval="7" xml:id="tl_rake7_7"/>
+                     </timeline>Once in the saddle I used to go gay;         
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locJ">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_7" interval="6" xml:id="tl_rake7_8"/>
+                     </timeline>But I first took to drinkin', and then to card playin',       
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locJ1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_8" interval="6" xml:id="tl_rake7_9"/>
+                     </timeline>And then I got shot so im dying today.       
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locH">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_9" interval="6" xml:id="tl_rake7_10"/>
+                     </timeline>I once had a mother, a grey haired old mother,       
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locH1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_10" interval="6" xml:id="tl_rake7_11"/>
+                     </timeline>She rocked me to sleep and she sang me a song,       
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locK">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_11" interval="7" xml:id="tl_rake7_12"/>
+                     </timeline>And there was another, more dear than a mother       
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locK1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_12" interval="7" xml:id="tl_rake7_13"/>
+                     </timeline>She never will know where her cowboy is gone       
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locM">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_13" interval="6" xml:id="tl_rake7_14"/>
+                     </timeline>Go gather around me a bunch of young cowboys,       
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locM1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_14" interval="6" xml:id="tl_rake7_15"/>
+                     </timeline>And tell 'em the tale of a cowboy's sad fate,      
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locM2">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_15" interval="7" xml:id="tl_rake7_16"/>
+                     </timeline>And warn 'em all gently to quit their wild rovin’,        
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locM3">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_16" interval="6" xml:id="tl_rake7_17"/>
+                     </timeline>To quit their wild rovin’ before its too late.      
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="loc17">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_17" interval="7" xml:id="tl_rake7_18"/>
+                     </timeline>My friends and relation, They live in the nation     
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="loc171">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_18" interval="6" xml:id="tl_rake7_19"/>
+                     </timeline>They never will know where their cowboy has gone,    
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="loc172">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_19" interval="7" xml:id="tl_rake7_20"/>
+                     </timeline>I first went to texas, and there hired a ranchman,  
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="loc173">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_20" interval="7" xml:id="tl_rake7_21"/>
+                     </timeline>I’m just a poor cowboy, I know I’ve done wrong. 
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="5">
+            <l n="1">
+               <app loc="locE">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_21" interval="6" xml:id="tl_rake7_22"/>
+                     </timeline>Then beat your drum slowly, And play your fife lowly,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_22" interval="6" xml:id="tl_rake7_23"/>
+                     </timeline>Get six of them gambler’s to carry me along,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_23" interval="7" xml:id="tl_rake7_24"/>
+                     </timeline>And in the grave throw me and roll some rocks o’er me,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake9">
+                     <timeline unit="s">
+                        <when since="#tl_rake7_24" interval="6" xml:id="tl_rake7_25"/>
+                     </timeline>I’m just a poor cowboy, I know I’ve done wrong.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         
+         <!-- 10. STREETS OF LOREDO -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake10">
+                     <timeline xml:id="tl_rake8" origin="#tl_rake7_1" unit="s">
+                        <when xml:id="tl_rake8_1"/>
+                        <when since="#tl_rake8_1" interval="10" xml:id="tl_rake8_2"/>
+                     </timeline> As I walked out in the streets of Loredo
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locA1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_2" interval="9" xml:id="tl_rake8_3"/>
+                     </timeline>As I walked out into old Loredo town,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_3" interval="11" xml:id="tl_rake8_4"/>
+                     </timeline>I spied a dear cowboy all wrapped in white linen
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_4" interval="11" xml:id="tl_rake8_5"/>
+                     </timeline>All wrapped up in white linen, for they had gunned him down.
+                  </rdg>
+               </app> 
+            </l>   
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locO">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_5" interval="7" xml:id="tl_rake8_6"/>
+                     </timeline>I see by your outfit you are a cow puncher,
+                  </rdg>
+               </app>
+            </l>
+         <l n="2">
+            <app loc="locO1">
+               <rdg wit="#rake10">
+                  <timeline unit="s">
+                     <when since="#tl_rake8_6" interval="9" xml:id="tl_rake8_7"/>
+                  </timeline>This poor boy said from his lips of flame red.
+               </rdg>
+            </app>
+            </l>
+            <l n="3">
+               <app loc="locC">
+               <rdg wit="#rake10">
+                  <timeline unit="s">
+                     <when since="#tl_rake8_7" interval="9" xml:id="tl_rake8_8"/>
+                  </timeline>They done gunned me down boys and run off and left me,
+               </rdg>
+            </app> 
+            </l>
+            <l n="4">
+               <app loc="locC1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_8" interval="8" xml:id="tl_rake8_9"/>
+                     </timeline>Here in the back street just like I was dead.
+                  </rdg>
+               </app> 
+            </l>
+            
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locO">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_9" interval="9" xml:id="tl_rake8_10"/>
+                     </timeline>I see by your outfit you are a cow puncher,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locO1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_10" interval="8" xml:id="tl_rake8_11"/>
+                     </timeline>This poor boy said as I boldly stepped by,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locC">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_11" interval="11" xml:id="tl_rake8_12"/>
+                     </timeline>Come sit down beside me, my story I'll tell you,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locC1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_12" interval="12" xml:id="tl_rake8_13"/>
+                     </timeline>'Cause I'm a poor cowboy and I'm going to die.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locO">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_13" interval="10" xml:id="tl_rake8_14"/>
+                     </timeline>Well I was born in South-East Texas,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locO1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_14" interval="10" xml:id="tl_rake8_15"/>
+                     </timeline>Where the jimson weed and the lilac does bloom,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locO2">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_15" interval="7" xml:id="tl_rake8_16"/>
+                     </timeline>I long to go live there for to go far a-rangin'
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+              <app loc="O3"> <rdg wit="#rake10">
+                  <timeline unit="s">
+                     <when since="#tl_rake8_16" interval="10" xml:id="tl_rake8_17"/>
+                  </timeline>And I've trailed from Canada down to old Mexico.
+               </rdg></app>
+            </l>
+         </lg>
+         <lg type="stanza" n="5">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_17" interval="7" xml:id="tl_rake8_18"/>
+                     </timeline>"T'was once in the saddle I used to go dashing,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_18" interval="8" xml:id="tl_rake8_19"/>
+                     </timeline>T'was once in the saddle I used to go gay,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locJ">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_20" interval="8" xml:id="tl_rake8_21"/>
+                     </timeline>T'was first down to the dramhouse, and then down to Maisy's,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locJ1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_21" interval="9" xml:id="tl_rake8_22"/>
+                     </timeline>I's shot in the breast and I am dying today.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="6">
+            <l n="1">
+               <app loc="locF">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_22" interval="10" xml:id="tl_rake8_23"/>
+                     </timeline>Go write a letter to my grey-haired mother,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locF1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_23" interval="8" xml:id="tl_rake8_24"/>
+                     </timeline>Go pen a note to my sister so dear,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locK">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_24" interval="6" xml:id="tl_rake8_25"/>
+                     </timeline>But there is another more dear than a mother,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locK1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_25" interval="10" xml:id="tl_rake8_26"/>
+                     </timeline>Who’ll bitterly weep when she knows I am hurt.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="7">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_26" interval="7" xml:id="tl_rake8_27"/>
+                     </timeline>"Get sixteen cowboys to carry my coffin
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_27" interval="8" xml:id="tl_rake8_28"/>
+                     </timeline>Get six pretty ladies to bear up my pall
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_28" interval="12" xml:id="tl_rake8_29"/>
+                     </timeline>Put roses all over the top of my coffin
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_29" interval="12" xml:id="tl_rake8_30"/>
+                     </timeline>To deaden the smell as the bear me along.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="8">
+            <l n="1">
+               <app loc="locE">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_30" interval="9" xml:id="tl_rake8_31"/>
+                     </timeline>"Oh, swing your rope slowly and ring your spurs lowly,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_31" interval="9" xml:id="tl_rake8_32"/>
+                     </timeline>Play the dead march as you bear me along,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_32" interval="10" xml:id="tl_rake8_33"/>
+                     </timeline>"Take me to the green valley, there lay the sod o'er me,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake10">
+                     <timeline unit="s">
+                        <when since="#tl_rake8_33" interval="8" xml:id="tl_rake8_34"/>
+                     </timeline>'Cause I'm a poor cowboy and I know I've done wrong."
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         
+         <!-- 11. I ONCE WAS A carman ON THE BIG MOUNTAIN CON -->
+         
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake11">
+                     <timeline xml:id="tl_rake9" origin="#tl_rake9_1" unit="s">
+                        <when xml:id="tl_rake9_1"/>
+                        <when since="#tl_rake9_1" interval="7.5" xml:id="tl_rake9_2"/>
+                     </timeline> 'Twas once in the saddle I used to go dashing,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_2" interval="6" xml:id="tl_rake9_3"/>
+                     </timeline>'Twas once as a cowboy I used to be brave;
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locO">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_3" interval="5" xml:id="tl_rake9_4"/>
+                     </timeline>But ain't it a pity, I came to Butte City <note>Butte, Montana.</note>
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locO1">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_4" interval="6" xml:id="tl_rake9_5"/>
+                     </timeline>To work for Jim Brennan and now to my grave.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locE">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_5" interval="5" xml:id="tl_rake9_6"/>
+                     </timeline>Oh, beat your drum loudly and sound your fife merrily,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_6" interval="6" xml:id="tl_rake9_7"/>
+                     </timeline>Play the bagpipe as ye carry me on,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_7" interval="5" xml:id="tl_rake9_8"/>
+                     </timeline>Place a square pointed fan on the lid of my coffin,
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_8" interval="6" xml:id="tl_rake9_9"/>
+                     </timeline>So I'll be known as I go along.
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_9" interval="7" xml:id="tl_rake9_10"/>
+                     </timeline>Go get six jolly ladies to come and dance o'er me;
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_10" interval="5" xml:id="tl_rake9_11"/>
+                     </timeline>Get six husky carmen to carry me on;
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_11" interval="5" xml:id="tl_rake9_12"/>
+                     </timeline>Take me to The Flat <note>The Flat is a reference to the
+                        cemeteries of Butte which are located on a flat plains area south of the
+                        town.</note>, boys, and lay the sod o'er me, 
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake11">
+                     <timeline unit="s">
+                        <when since="#tl_rake9_12" interval="7" xml:id="tl_rake9_13"/>
+                     </timeline>For I once was a carman on the Big Mountain Con.
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         
+         <!-- 12. The Wild Lumberjack -->
+         <lg type="stanza" n="1">
+            <l n="1">
+                  <app loc="locA">
+                     <rdg wit="#rake12">
+                        <timeline xml:id="tl_rake10" origin="#tl_rake10_1" unit="s">
+                           <when xml:id="tl_rake10_1"/>
+                           <when since="#tl_rake10_1" interval="6" xml:id="tl_rake10_2"/>
+                        </timeline>One day I was walking out on the mountain,
+                     </rdg>
+                  </app>
+            </l>
+            <l n="2">
+               <app loc="locA1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_2" interval="4" xml:id="tl_rake10_3"/>
+                     </timeline>A wood robin was singing, I happened to spy
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_3" interval="5" xml:id="tl_rake10_4"/>
+                     </timeline>A handsome young lumberjack on the banks of the river,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_4" interval="4" xml:id="tl_rake10_5"/>
+                     </timeline>All dressed in white linen, and laid out to die.     
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locE">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_5" interval="5" xml:id="tl_rake10_6"/>
+                     </timeline>So beat your drum lowly, and play your fife slowly,  
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locE1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_6" interval="4" xml:id="tl_rake10_7"/>
+                     </timeline>And play the Dead March as you carry me along.
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_7" interval="5" xml:id="tl_rake10_8"/>
+                     </timeline>Oh, take me to the mountain, and lay the sod o'er me,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_8" interval="4" xml:id="tl_rake10_9"/>
+                     </timeline>For I'm a wild lumberjack, and I know I've done wrong.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locI">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_9" interval="4" xml:id="tl_rake10_10"/>
+                     </timeline>Once out in the forest I used to go slashing;
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locI1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_11" interval="5" xml:id="tl_rake10_12"/>
+                     </timeline>Once in the big timbers I used to be gay.
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locJ">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_12" interval="4" xml:id="tl_rake10_13"/>
+                     </timeline>I first took to drinking, and then to card playing,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locJ1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_13" interval="4" xml:id="tl_rake10_14"/>
+                     </timeline>Was shot in the breast, and I'm dying today.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locF">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_14" interval="5" xml:id="tl_rake10_15"/>
+                     </timeline>Go someone, and write to my Grey-headed mother,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locF1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_15" interval="4" xml:id="tl_rake10_16"/>
+                     </timeline>And also to my brothers and sisters so dear;
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locK">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_16" interval="4.5" xml:id="tl_rake10_17"/>
+                     </timeline>But there is another far dearer than mother,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locK1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_17" interval="23" xml:id="tl_rake10_18"/>
+                     </timeline>Who'd bitterly weep if she knew I was here.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locP">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_18" interval="5" xml:id="tl_rake10_19"/>
+                     </timeline>Go, someone, and bring me a cup of cold water,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="2">
+               <app loc="locP1">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_19" interval="4" xml:id="tl_rake10_20"/>
+                     </timeline>A cup of spring water, the poor woodsie said;
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locP2">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_20" interval="4" xml:id="tl_rake10_21"/>
+                     </timeline>But 'ere it had reached him his spirit had vanished,
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locP3">
+                  <rdg wit="#rake12">
+                     <timeline unit="s">
+                        <when since="#tl_rake10_21" interval="4" xml:id="tl_rake10_22"/>
+                     </timeline>Gone to the Giver, the poor fellow was dead.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         
+         <!-- 13. Gambler's Blues -->
+         <lg type="stanza" n="1">   
+            <l n="1">
+               <app loc="locP">
+                  <rdg wit="#rake13">
+                     <timeline xml:id="tl_rake11" origin="#tl_rake11_1" unit="s">
+                        <when xml:id="tl_rake11_1"/>
+                        <when since="#tl_rake11_1" interval="11" xml:id="tl_rake11_2"/>
+                     </timeline> It was down at Old Joe's bar room
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locP1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_2" interval="5" xml:id="tl_rake11_3"/>
+                     </timeline>On a corner of the square
+                  </rdg>
+               </app> 
+            </l>
+            <l n="3">
+               <app loc="locP2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_3" interval="4" xml:id="tl_rake11_4"/>
+                     </timeline>They were serving drinks as usual
+                  </rdg>
+               </app> 
+            </l>
+            <l n="4">
+               <app loc="locP3">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_4" interval="4" xml:id="tl_rake11_5"/>
+                     </timeline>And the usual crowd was there.
+                  </rdg>
+               </app> 
+            </l>
+         </lg>
+         <lg type="stanza" n="2">
+            <l n="1">
+               <app loc="locQ">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_5" interval="4" xml:id="tl_rake11_6"/>
+                     </timeline>On my left stood Big Joe McKennedy,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locQ1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_6" interval="4" xml:id="tl_rake11_7"/>
+                     </timeline>His eyes were bloodshot red,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locQ2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_7" interval="4" xml:id="tl_rake11_8"/>
+                     </timeline>Well, he turned to the crowd around him
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locQ3">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_9" interval="4" xml:id="tl_rake11_10"/>
+                     </timeline>These are the very words he said:
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="1">
+            <l n="1">
+               <app loc="locA">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_10" interval="4" xml:id="tl_rake11_11"/>
+                     </timeline>"I went down to that St. James' Infirmary,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locA1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_11" interval="4" xml:id="tl_rake11_12"/>
+                     </timeline>I saw my baby there;
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locB">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_12" interval="4" xml:id="tl_rake11_13"/>
+                     </timeline>Stretched out on a long white table
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locB1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_13" interval="4" xml:id="tl_rake11_14"/>
+                     </timeline>So sweet, so cold, so fair."
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="3">
+            <l n="1">
+               <app loc="locR">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_14" interval="4" xml:id="tl_rake11_15"/>
+                     </timeline>"Let her go, let her go, God bless her
+                  </rdg>
+               </app>
+            </l>
+           
+            <l n="2">
+               <app loc="locR1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_16" interval="4" xml:id="tl_rake11_17"/>
+                     </timeline>Wherever she may be,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locR2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_17" interval="4" xml:id="tl_rake11_18"/>
+                     </timeline>She may search this wide world over,
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locR3">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_18" interval="4" xml:id="tl_rake11_19"/>
+                     </timeline>Never find a sweet man like me."
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="4">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_19" interval="4" xml:id="tl_rake11_20"/>
+                     </timeline>When I die please bury me
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_20" interval="4" xml:id="tl_rake11_21"/>
+                     </timeline>In my high-top Stetson hat
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locD2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_21" interval="4" xml:id="tl_rake11_22"/>
+                     </timeline>Put a twenty-dollar gold piece on my watch-chain
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locD3">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_22" interval="4" xml:id="tl_rake11_23"/>
+                     </timeline> My gang will know I died standing pat.
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="5">
+            <l n="1">
+               <app loc="locD">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_23" interval="4" xml:id="tl_rake11_24"/>
+                     </timeline>I want six crapshooters for pallbearers,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locD1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_24" interval="4" xml:id="tl_rake11_25"/>
+                     </timeline>While the chorus girls to sing me a song,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locE2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_25" interval="4" xml:id="tl_rake11_26"/>
+                     </timeline>Put a jazz band on my hearse wagon,
+                  </rdg>
+               </app>
+            </l>
+            <l n="4">
+               <app loc="locE3">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_26" interval="19" xml:id="tl_rake11_27"/>
+                     </timeline>To raise hell as I stroll along.
+                  </rdg>
+               </app>
+            </l>
+         </lg>
+         <lg type="stanza" n="6">
+            <l n="1">
+               <app loc="locS">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_27" interval="4" xml:id="tl_rake11_28"/>
+                     </timeline>Now that I've told my story,
+                  </rdg>
+               </app>
+            </l>
+            <l n="2">
+               <app loc="locS1">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_29" interval="4" xml:id="tl_rake11_30"/>
+                     </timeline>I'll take an other shot of booze,
+                  </rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app loc="locS2">
+                  <rdg wit="#rake13">
+                     <timeline unit="s">
+                        <when since="#tl_rake11_30" interval="4" xml:id="tl_rake11_31"/>
+                     </timeline>And if anyone should ask you;
+                  </rdg>
+               </app>
+            </l>
+        
+         <l n="4">
+            <app loc="locS3">
+               <rdg wit="#rake13">
+                  <timeline unit="s">
+                     <when since="#tl_rake11_31" interval="4" xml:id="tl_rake11_32"/>
+                  </timeline>Well I got those gamblers blues.
+               </rdg>
+            </app>
+         </l>
+         </lg>
+      </body>
+  
+ </text>
+   
+</TEI>
